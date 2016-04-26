@@ -1,0 +1,5 @@
+<h1>{{ $ctrl.message }}</h1>
+<div>This is the news view.6.</div>
+<ul class="col-md-4 col-lg-4 col-sm-6" ng-repeat="article in $ctrl.newsArticles">
+  <li><a href="#" uib-tooltip="{{ article }}">{{article}}</a></li>
+</ul>
